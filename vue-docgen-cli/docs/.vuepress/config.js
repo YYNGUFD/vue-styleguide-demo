@@ -27,12 +27,8 @@ var vuepressConfig = async () => {
       search: true,
       editLinks: true,
       nav:[ // 导航栏配置
-        {text: '前端基础', link: '/accumulate/' },  
-        {text: '前端基础', 
-        items: [
-          { text: 'focus-outside', link: 'https://github.com/TaoXuSheng/focus-outside' },
-          { text: 'stylus-converter', link: 'https://github.com/TaoXuSheng/stylus-converter' },
-        ]},    
+        {text: 'github', link: 'https://github.com/YYNGUFD/vue-styleguide-demo/tree/master/vue-docgen-cli' },  
+         
       ], 
       sidebar: docFiles,
       markdown: { // 为每个代码块显示行号
