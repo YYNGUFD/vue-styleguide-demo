@@ -20,5 +20,5 @@ yarn  vuepress  //将生成的.md文档生成可视化界面
 
 ### 打包
 ```
-yarn  styleguide:build
+yarn  docs:build
 ```
